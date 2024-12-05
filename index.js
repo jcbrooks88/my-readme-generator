@@ -139,7 +139,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// Function to initialize app
+// Function to initialize README app
 function init() {
   inquirer.prompt(questions).then((answers) => {
     const readmeContent = generateREADME(answers);
